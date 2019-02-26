@@ -27,7 +27,8 @@ class Navigation extends Component {
   };
 
   render() {
-    const categories = ["design", "javascript", "react"];
+    const categories = Object.keys(books);
+    
     const links = categories.map(category => {
       const active = category === this.state.category ? "active" : "";
 
