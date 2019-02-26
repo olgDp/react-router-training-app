@@ -1,0 +1,21 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background: #ffeb3b;
+}
+
+.Header a {
+  color: #000;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .Header a {
+    font-size: 24px;
+  }
+}

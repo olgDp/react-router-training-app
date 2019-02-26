@@ -1,0 +1,5 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #000000, #434343) no-repeat center center;
+  font-family: "Ubuntu", sans-serif;
+}

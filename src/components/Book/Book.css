@@ -1,0 +1,32 @@
+.Book {
+  text-align: center;
+  cursor: pointer;
+}
+
+.Book img {
+  display: block;
+  width: 240px;
+  height: 320px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  box-shadow: 0px 8px 48px #000000;
+  transition: all 0.4s;
+}
+
+.Book img:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 16px 80px #000000;
+}
+
+.Book .title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.Book .author {
+  font-style: italic;
+  font-size: 14px;
+  color: #777777;
+}

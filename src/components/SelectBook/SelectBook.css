@@ -1,0 +1,18 @@
+.SelectBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SelectBook h2 {
+  margin-top: 8px;
+  font-size: 40px;
+}
+
+.SelectBook img.book {
+  margin-top: 40px;
+  margin-left: 42px;
+  width: 16%;
+  height: auto;
+}
